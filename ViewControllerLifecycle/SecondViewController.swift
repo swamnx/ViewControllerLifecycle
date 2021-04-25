@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  ViewControllerLifecycle
 //
 //  Created by swamnx on 25.04.21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: AnalyticUIViewController {
+class SecondViewController: AnalyticUIViewController {
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -18,6 +18,7 @@ class ViewController: AnalyticUIViewController {
         super.init(coder: coder)
         screenName = String(describing: type(of: self) )
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

@@ -13,9 +13,14 @@
 		284EA6E72635A0A50024CFB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284EA6E52635A0A50024CFB1 /* Main.storyboard */; };
 		284EA6E92635A0A60024CFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284EA6E82635A0A60024CFB1 /* Assets.xcassets */; };
 		284EA6EC2635A0A60024CFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284EA6EA2635A0A60024CFB1 /* LaunchScreen.storyboard */; };
+		284EA6F52635AA110024CFB1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284EA6F42635AA110024CFB1 /* SecondViewController.swift */; };
+		284EA6F82635AED70024CFB1 /* AnalyticUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284EA6F72635AED70024CFB1 /* AnalyticUIViewController.swift */; };
+		284EA6FC2635B7CE0024CFB1 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284EA6FB2635B7CE0024CFB1 /* Analytics.swift */; };
+		8571DE0D0B0AF9255516CA58 /* Pods_ViewControllerLifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A49D779EB0E27473105E40 /* Pods_ViewControllerLifecycle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07A49D779EB0E27473105E40 /* Pods_ViewControllerLifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewControllerLifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		284EA6DC2635A0A50024CFB1 /* ViewControllerLifecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerLifecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284EA6DF2635A0A50024CFB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		284EA6E12635A0A50024CFB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		284EA6E82635A0A60024CFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284EA6EB2635A0A60024CFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		284EA6ED2635A0A60024CFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284EA6F42635AA110024CFB1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		284EA6F72635AED70024CFB1 /* AnalyticUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticUIViewController.swift; sourceTree = "<group>"; };
+		284EA6FB2635B7CE0024CFB1 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		9D89176F0348C0AB0A28C8A8 /* Pods-ViewControllerLifecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewControllerLifecycle.release.xcconfig"; path = "Target Support Files/Pods-ViewControllerLifecycle/Pods-ViewControllerLifecycle.release.xcconfig"; sourceTree = "<group>"; };
+		B6D44CD3E048871BD53D847E /* Pods-ViewControllerLifecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewControllerLifecycle.debug.xcconfig"; path = "Target Support Files/Pods-ViewControllerLifecycle/Pods-ViewControllerLifecycle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8571DE0D0B0AF9255516CA58 /* Pods_ViewControllerLifecycle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				284EA6DE2635A0A50024CFB1 /* ViewControllerLifecycle */,
 				284EA6DD2635A0A50024CFB1 /* Products */,
+				31D47AC1B2E34EB436C9DAFD /* Pods */,
+				A90E86B7AD536B98879D2142 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +76,28 @@
 				284EA6E82635A0A60024CFB1 /* Assets.xcassets */,
 				284EA6EA2635A0A60024CFB1 /* LaunchScreen.storyboard */,
 				284EA6ED2635A0A60024CFB1 /* Info.plist */,
+				284EA6F42635AA110024CFB1 /* SecondViewController.swift */,
+				284EA6F72635AED70024CFB1 /* AnalyticUIViewController.swift */,
+				284EA6FB2635B7CE0024CFB1 /* Analytics.swift */,
 			);
 			path = ViewControllerLifecycle;
+			sourceTree = "<group>";
+		};
+		31D47AC1B2E34EB436C9DAFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6D44CD3E048871BD53D847E /* Pods-ViewControllerLifecycle.debug.xcconfig */,
+				9D89176F0348C0AB0A28C8A8 /* Pods-ViewControllerLifecycle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A90E86B7AD536B98879D2142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A49D779EB0E27473105E40 /* Pods_ViewControllerLifecycle.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +107,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 284EA6F02635A0A60024CFB1 /* Build configuration list for PBXNativeTarget "ViewControllerLifecycle" */;
 			buildPhases = (
+				710F2D08C5F6A87DF858A716 /* [CP] Check Pods Manifest.lock */,
+				284EA7012635C4A50024CFB1 /* ShellScript */,
 				284EA6D82635A0A50024CFB1 /* Sources */,
 				284EA6D92635A0A50024CFB1 /* Frameworks */,
 				284EA6DA2635A0A50024CFB1 /* Resources */,
@@ -132,13 +167,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		284EA7012635C4A50024CFB1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		710F2D08C5F6A87DF858A716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViewControllerLifecycle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		284EA6D82635A0A50024CFB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284EA6F82635AED70024CFB1 /* AnalyticUIViewController.swift in Sources */,
+				284EA6F52635AA110024CFB1 /* SecondViewController.swift in Sources */,
 				284EA6E42635A0A50024CFB1 /* ViewController.swift in Sources */,
 				284EA6E02635A0A50024CFB1 /* AppDelegate.swift in Sources */,
+				284EA6FC2635B7CE0024CFB1 /* Analytics.swift in Sources */,
 				284EA6E22635A0A50024CFB1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +363,7 @@
 		};
 		284EA6F12635A0A60024CFB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D44CD3E048871BD53D847E /* Pods-ViewControllerLifecycle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +383,7 @@
 		};
 		284EA6F22635A0A60024CFB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D89176F0348C0AB0A28C8A8 /* Pods-ViewControllerLifecycle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
